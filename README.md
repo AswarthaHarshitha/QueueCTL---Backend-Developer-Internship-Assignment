@@ -110,6 +110,15 @@ A small test script is provided to exercise basic flows, including success, retr
 - `queuectl/cli.py`, `queuectl/db.py`, `queuectl/worker.py`, `queuectl/config.py` - core logic
 - `scripts/test_flow.sh` - simple test harness
 
+## Demo Video
+
+🎥 **Watch the Working CLI Demo**
+
+A short recording showing job enqueueing, worker execution, retries, DLQ handling, and metrics endpoint.
+
+[▶️ Click here to watch the demo on Google Drive](https://drive.google.com/file/d/1KDWyP1jSF5j1Df9UPtUxYo9I175ybrEc/view?usp=sharing)
+
+
 ## Notes
 
 This implementation was created to satisfy the assignment requirements: enqueue, multiple workers, persistence, retry/backoff, DLQ and CLI management. See code for more details.
